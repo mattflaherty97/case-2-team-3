@@ -11,7 +11,7 @@ We hope our model could be very useful for not only the banking industry but als
 
 
 ## Relative Recources
-* **Kaggle link(dataset):** https://www.kaggle.com/subhamjain/loan-prediction-based-on-customer-behavior?select=Training+Data.csv
-* **Topic Selection:** https://docs.google.com/document/d/19xLIllcyRP5w9erRgP2w27jL7wbaO581z5OsHeHq9GI/edit
-* **Team Charter:** https://docs.google.com/document/d/1Kb17YtmSjuI7ESMgf-fG6SVkB027VWkTum1VQCMPtMo/edit
-* **Project Plan:** https://docs.google.com/document/d/1jOURIGWK7Eu6EH9hPWfGwKOmz_ZKquQbvK2M-ODjXpg/edit
+* **Dataset:** [Loan Prediction Based on Customer Behavior][https://www.kaggle.com/subhamjain/loan-prediction-based-on-customer-behavior?select=Training+Data.csv)
+* **Topic Selection:** [Topic Selection Google Docs](https://docs.google.com/document/d/19xLIllcyRP5w9erRgP2w27jL7wbaO581z5OsHeHq9GI/edit)
+* **Team Charter:** [Team Charter Google Docs](https://docs.google.com/document/d/1Kb17YtmSjuI7ESMgf-fG6SVkB027VWkTum1VQCMPtMo/edit)
+* **Project Plan:** [Project Plan Google Docs](https://docs.google.com/document/d/1jOURIGWK7Eu6EH9hPWfGwKOmz_ZKquQbvK2M-ODjXpg/edit)
