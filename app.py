@@ -126,7 +126,22 @@ if sidebar == 'Information':
 
     # Page Header
     st.markdown("<h2 style='text-align: center;'>Information Page</h2>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center;'>Check back soon for additional functionality!</h3>", unsafe_allow_html=True)
+    
+    st.markdown("<h4 style='text-align: center;'>The random forest model that this app uses has identified income, age, work experience, years at current job, state GDP, and years at current residence as key factors which influence loan default chances.</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center;'>See below for resources on influencing these and other factors that may factor into loan default.</h4>", unsafe_allow_html=True)
+    
+    st.markdown("<h3 style='text-align: left;'>Borrowers</h3>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: center;'><a href='https://www.nerdwallet.com/article/loans/personal-loans/personal-loan-application-tips-win-approval'>Tips to improve chance to be approved for a loan.</a></h5>", unsafe_allow_html=True)    
+    st.markdown("<h5 style='text-align: center;'><a href='https://www.indeed.com/career-advice/starting-new-job/how-increase-income'>Tips to increase your income.</a></h5>", unsafe_allow_html=True) 
+    st.markdown("<h5 style='text-align: center;'><a href='https://www.cibil.com/loan-approval-process'>Loan application process in India.</a></h5>", unsafe_allow_html=True) 
+    st.markdown("<h3 style='text-align: left;'>Lenders</h3>", unsafe_allow_html=True) 
+    st.markdown("<h5 style='text-align: center;'><a href='https://repository.usfca.edu/cgi/viewcontent.cgi?article=1074&context=thes'>The effect of risk on loan default.</a></h5>", unsafe_allow_html=True) 
+    st.markdown("<h5 style='text-align: center;'><a href='https://www.bis.org/publ/work467.pdf'>Managing default risk.</a></h5>", unsafe_allow_html=True) 
+    st.markdown("<h5 style='text-align: center;'><a href='https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2514~43564dfc3d.en.pdf'>Risk aversion and bank loan pricing.</a></h5>", unsafe_allow_html=True)     
+    st.markdown("<h3 style='text-align: left;'>Government Entities</h3>", unsafe_allow_html=True) 
+    st.markdown("<h5 style='text-align: center;'><a href='https://statisticstimes.com/economy/india/indian-states-gdp.php'>GDP of Indian States, Interactive.</a></h5>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: center;'><a href='https://www.jstor.org/stable/2328022'>The effect of government regulations on personal loan markets.</a></h5>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: center;'><a href='https://www.oecd-ilibrary.org/sites/79321fa3-en/index.html?itemId=/content/component/79321fa3-en'>Government role in the redistribution of income and wealth.</a></h5>", unsafe_allow_html=True)
     
 # code for application page
 if sidebar == 'Updates':
