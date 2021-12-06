@@ -64,11 +64,11 @@ if sidebar == 'Risk Assessment':
     # Page Header
     st.markdown("<h2 style='text-align: center;'>User Page</h2>", unsafe_allow_html=True)
         
-    income = st.number_input("Applicant Income:", step = 1)
+    income = st.slider("Applicant Income:", 0, int(max(data['Income'])), step = 1, value = int(np.mean(data['Income'])))
     
-    age = st.number_input("Applicant Age:", step = 1)
+    age = st.slider("Applicant Age:", 0, int(max(data['Age'])), step = 1, value = int(np.mean(data['Age'])))
     
-    experience = st.number_input("Applicant Work Experience:", step = 1)
+    experience = st.slider("Applicant Work Experience (years):", 0, int(max(data['Experience'])), step = 1, value = int(np.mean(data['Experience'])))
     
     marital_status = st.selectbox("Applicant Marital Status:", ("Single", "Married"))
     if marital_status == "Single":
@@ -96,11 +96,11 @@ if sidebar == 'Risk Assessment':
     
     state = st.selectbox("Applicant State:", np.sort(unique_states))
     
-    job_years = st.number_input("Applicant Years at Current Job:", step = 1)
+    job_years = st.slider("Applicant Years at Current Job:", 0, int(max(data['CURRENT_JOB_YRS'])), step = 1, value = int(np.mean(data['CURRENT_JOB_YRS'])))
     
-    house_years = st.number_input("Applicant Years at Current Residence:", step = 1)
+    house_years = st.slider("Applicant Years at Current Residence:", 0, int(max(data['CURRENT_HOUSE_YRS'])), step = 1, value = int(np.mean(data['CURRENT_HOUSE_YRS'])))
     
-    GDP = st.slider("Applicant State GDP (billions):", 0, int(max(data['GDP'])), 1)
+    GDP = st.slider("Applicant State GDP (billions):", 0, int(max(data['GDP'])), step = 1, value = int(np.mean(data['GDP'])))
     
     input_list = [income, age, experience,  final_marital_status,  final_house_ownership,  final_car_ownership, profession, city, state, job_years, house_years, GDP]
     
