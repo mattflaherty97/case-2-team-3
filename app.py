@@ -52,11 +52,11 @@ if sidebar == 'Main':
     st.markdown("<h4 style='text-align: center;'>Through the navigation sidebar, the various application functionalities can be accessed.</h4>", unsafe_allow_html=True)
     st.markdown("<h4 style='text-align: center;'>For documentation, code, and all other relevant files, see the <a href='https://github.com/mattflaherty97/case-2-team-3'>project repo</a>.</h4>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: left;'>Risk Assessment Tab</h3>", unsafe_allow_html=True)
-    st.markdown("<h4 style='text-align: left;'>Allows for user input to assess loan default risk using a random forest classifier.</h4>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: left;'>Allows for user input to assess loan default risk using a random forest classifier.</h5>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: left;'>Information Tab</h3>", unsafe_allow_html=True)
-    st.markdown("<h4 style='text-align: left;'>Provides further information on modeling methodology and useful links for users regarding default risk factors.</h4>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: left;'>Provides further information on modeling methodology and useful links for users regarding default risk factors.</h5>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: left;'>Updates Tab</h3>", unsafe_allow_html=True) 
-    st.markdown("<h4 style='text-align: left;'>Details upcoming updates for the application.</h4>", unsafe_allow_html=True)    
+    st.markdown("<h5 style='text-align: left;'>Details upcoming updates for the application.</h5>", unsafe_allow_html=True)    
 
 # code for application page
 if sidebar == 'Risk Assessment':
