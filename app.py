@@ -123,7 +123,7 @@ if sidebar == 'Risk Assessment':
 if sidebar == 'Information':
 
     # Page Header
-    st.markdown("<h2 style='text-align: center;'>Government Page</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Information Page</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>Check back soon for additional functionality!</h3>", unsafe_allow_html=True)
     
 # code for application page
