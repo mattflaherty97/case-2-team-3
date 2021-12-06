@@ -1,14 +1,13 @@
-# case-2-team-3
-
-## Background
-This project uses consumer data belonging to a Hackathon organized by "Univ.AI". All values were provided at the time of the loan application. It contains 12 columns, including income, age, experience, profession, marriage, house ownership, car ownership, risk flag, job years, house tears, city and state.
-We would like to predict the probability and possible defaulters for the consumer loans product. They have data about historic customer behavior based on what they have observed. Hence when they acquire new customers they want to predict who is riskier and who is not.
-We hope our model could be very useful for not only the banking industry but also the whole society, including the government, the insurance institutes, etc.
-
+# Loan Prediction
 
 ## Goals
+We have two goals for this project. First, we would like to predict the probability that an individual defaults on a loan. The second is to determine the features that are most important in determining if an individual will default on a loan. We think that it will be important to determine important features along with probabilities because individuals might want to know the areas which are holding them back from having a lower probability of defaulting on a loan.
 
+## Background
+This project uses consumer data belonging to a Hackathon organized by "Univ.AI". This project is targeted to benefit loan givers, borrowers, and government institutions. We believe that it will benefit those distributing the loans because they will be able to determine the likelihood of an individual defautling on a loan and will be able to distirbute loans more efficiently. Borrowers will be able to benefit from this analysis as well becuase they will be able to determine areas in which they need to improve in order for their likelihood to default to decrease. Government institutions will also benefit from this because they will be able to determine where to provide aid.
 
+## Data
+All values were provided at the time of the loan application. It contains 12 columns, including income, age, experience, profession, marriage, house ownership, car ownership, risk flag, job years, house tears, city and state. 
 
 ## Relative Recources
 * **Dataset:** [Loan Prediction Based on Customer Behavior](https://www.kaggle.com/subhamjain/loan-prediction-based-on-customer-behavior?select=Training+Data.csv)
