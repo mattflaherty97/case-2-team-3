@@ -28,8 +28,6 @@ def preprocessing(df):
     return(df)
 
 
-#preprocessing(data)
-
 # format app to fill screen width
 st.set_page_config(layout="wide")
 
@@ -37,7 +35,7 @@ st.set_page_config(layout="wide")
 st.markdown("<h1 style='text-align: center;'>Loan Default Dashboard</h1>", unsafe_allow_html=True)
 
 # create sidebar with multiple options
-sidebar = st.sidebar.selectbox("Navigation", ("Main", "Risk Assessment", "Information", "Other"))
+sidebar = st.sidebar.selectbox("Navigation", ("Main", "Risk Assessment", "Information", "Updates"))
 
 
 data = pd.read_csv("https://raw.githubusercontent.com/mattflaherty97/case-2-team-3/main/Data/app_data.csv")
@@ -51,10 +49,14 @@ if sidebar == 'Main':
         
     # Page Content
     st.markdown("<h2 style='text-align: center;'>Main Page</h2>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center;'>Through the navigation sidebar, the various application functionalities can be accessed.</h3>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center;'>For documentation, code, and all other relevant files, see the <a href='https://github.com/mattflaherty97/case-2-team-3'>project repo</a>.</h3>", unsafe_allow_html=True)
-    #col1, col2, col3 = st.columns([1,1,1]) # this allows us to center the image by selecting col2 in next line
-    #col2.image(vandy, use_column_width=True)
+    st.markdown("<h4 style='text-align: center;'>Through the navigation sidebar, the various application functionalities can be accessed.</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center;'>For documentation, code, and all other relevant files, see the <a href='https://github.com/mattflaherty97/case-2-team-3'>project repo</a>.</h4>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: left;'>Risk Assessment Tab</h3>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: left;'>Allows for user input to assess loan default risk using a random forest classifier.</h4>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: left;'>Information Tab</h3>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: left;'>Provides further information on modeling methodology and useful links for users regarding default risk factors.</h4>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: left;'>Updates Tab</h3>", unsafe_allow_html=True) 
+    st.markdown("<h4 style='text-align: left;'>Details upcoming updates for the application.</h4>", unsafe_allow_html=True)    
 
 # code for application page
 if sidebar == 'Risk Assessment':
@@ -127,8 +129,8 @@ if sidebar == 'Information':
     st.markdown("<h3 style='text-align: center;'>Check back soon for additional functionality!</h3>", unsafe_allow_html=True)
     
 # code for application page
-if sidebar == 'Other':
+if sidebar == 'Updates':
 
     # Page Header
-    st.markdown("<h2 style='text-align: center;'>Other Page</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Updates Page</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>Check back soon for additional functionality!</h3>", unsafe_allow_html=True)
