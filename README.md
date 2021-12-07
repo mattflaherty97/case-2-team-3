@@ -15,3 +15,4 @@ All values were provided at the time of the loan application. It contains 12 col
 * **Team Charter:** [Team Charter Google Docs](https://docs.google.com/document/d/1Kb17YtmSjuI7ESMgf-fG6SVkB027VWkTum1VQCMPtMo/edit)
 * **Project Plan:** [Project Plan Google Docs](https://docs.google.com/document/d/1jOURIGWK7Eu6EH9hPWfGwKOmz_ZKquQbvK2M-ODjXpg/edit)
 * **Application:** [Streamlit Loan Default Web App](https://share.streamlit.io/mattflaherty97/case-2-team-3/main/app.py)
+* **Presentation:** [Slideshow](https://docs.google.com/presentation/d/19141gmb6tx4gKJis2-VZAPTrDiECTHeAuwADPThrxuA/edit#slide=id.gfc271f9619_0_2254)
