@@ -1,5 +1,5 @@
 # Loan Prediction
-
+---
 ## Key Objectives
 We have two goals for this project. First, we would like to predict the probability that an individual defaults on a loan. The second is to determine the features that are most important in determining if an individual will default on a loan. We think that it will be important to determine important features along with probabilities because individuals might want to know the areas which are holding them back from having a lower probability of defaulting on a loan.
 
@@ -36,3 +36,24 @@ All values were provided at the time of the loan application. It contains 12 col
 * **Project Plan:** [Project Plan Google Docs](https://docs.google.com/document/d/1jOURIGWK7Eu6EH9hPWfGwKOmz_ZKquQbvK2M-ODjXpg/edit)
 * **Application:** [Streamlit Loan Default Web App](https://share.streamlit.io/mattflaherty97/case-2-team-3/main/app.py)
 * **Presentation:** [Slideshow](https://docs.google.com/presentation/d/19141gmb6tx4gKJis2-VZAPTrDiECTHeAuwADPThrxuA/edit#slide=id.gfc271f9619_0_2254)
+---
+## Contributors
+Matthew Flaherty, M.S. in Data Science Candidate  
+Vanderbilt University  
+matthew.i.flaherty@Vanderbilt.Edu
+
+Jiayi Fu, M.S. in Data Science Candidate  
+Vanderbilt University  
+jiayi.fu@Vanderbilt.Edu 
+
+Logan King, M.S. in Data Science Candidate  
+Vanderbilt University  
+logan.a.king@Vanderbilt.Edu  
+  
+Wenqi Lyu, M.S. in Data Science Candidate  
+Vanderbilt University  
+lyu.wenqi@Vanderbilt.Edu  
+  
+Yuechen Yang, M.S. in Data Science Candidate  
+Vanderbilt University  
+yuechen.yang@Vanderbilt.Edu
